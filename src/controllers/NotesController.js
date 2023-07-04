@@ -1,5 +1,4 @@
 const knex = require("../database/knex");
-const AppError = require("../utils/AppError");
 
 class NotesController {
   async create(request, response) {
